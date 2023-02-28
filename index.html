@@ -10,45 +10,51 @@
 <body>
     <header>
         <h1>My Big Product</h1>
-        <a href="#About">About</a>
-        <a href="#Content">Content</a>
-        <a href="#Help">Help</a>
+        <nav>
+            <a class="nav" href="#about-container">About</a>
+            <a class="nav" href="#content-container">Content</a>
+            <a class="nav" href="#help-container">Help</a>
+        </nav>
     </header>
-    <div class="container">
-        <div class="about">
-            <h1>MY PROJECT PAGE</h1>
-            <p>This is a lil cool product page that is very nice very cool very swag i like it. If you look to the right,
-                you'll see what will happen to your business if you acquire me and my services as a developer.
-            </p>
-            <button>Fart</button>
+    <div class="mega-container">
+        <div id="about-container">
+            <div class="about">
+                <h1>MY PROJECT PAGE</h1>
+                <p>This is a lil cool product page that is very nice very cool very swag i like it. If you look to the right,
+                    you'll see what will happen to your business if you acquire me and my services as a developer.
+                </p>
+                <button>Fart</button>
+            </div>
+            <img id="stonks" src="images/stonks.jpg" alt="stonks going to the moon">
         </div>
-        <img src="images/stonks.jpg" alt="stonks going to the moon">
-    </div>
-    <div class="container">
-        <h2>This is some work that i've done as part of The Odin Project</h2>
-        <div class="content">
-            <div class="tile">
-                <img src="images/number1.png" alt="1st project">
-                <p>This</p>
-            </div>
-            <div class="tile">
-                <img src="images/number2.png" alt="2nd project">
-                <p>That</p>
-            </div>
-            <div class="tile">
-                <img src="images/number3.png" alt="3rd project">
-                <p>?</p>
-            </div>
-            <div class="tile">
-                <img src="images/number4.png" alt="4th project">
-                <p>Fart</p>
+        <div id="content-container">
+            <h2>This is some work that i've done as part of The Odin Project</h2>
+            <div class="content">
+                <div class="tile">
+                    <img src="images/number1.png" alt="1st project">
+                    <p>This</p>
+                </div>
+                <div class="tile">
+                    <img src="images/number2.png" alt="2nd project">
+                    <p>That</p>
+                </div>
+                <div class="tile">
+                    <img src="images/number3.png" alt="3rd project">
+                    <p>?</p>
+                </div>
+                <div class="tile">
+                    <img src="images/number4.png" alt="4th project">
+                    <p>Fart</p>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="container">
-        <p>Idk what you want help about. If you wanna contact me though you can.</p>
-        <p>Go to bed with itchy bum, wake up with smelly finger.</p>
-        <p><strong>Sun Tzu, Art of War</strong></p>
+        <div id="help-container">
+            <div class="quote">
+                <p><i>Go to bed with itchy bum, wake up with smelly finger.</i></p>
+                <p><strong>- Sun Tzu, Art of War</strong></p>
+            </div>
+            <p>Contact me please. I would like a job.</p>
+        </div>
     </div>
     <footer>
         <a href="https://www.theodinproject.com/dashboard">Copyright © The Odin Project</a>
